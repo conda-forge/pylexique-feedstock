@@ -11,7 +11,7 @@ source:
   sha256: c11c1d797413d8095b25f849e5ae601e087322a2754e46a4d479e57f7dd1fa14
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - pylexique=pylexique.cli:main
   script: {{ PYTHON }} -m pip install . -vv
@@ -40,7 +40,7 @@ test:
   requires:
 
 about:
-  description: |+
+  description: |
     Pylexique is a Python wrapper around Lexique83.
     It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
     Features:

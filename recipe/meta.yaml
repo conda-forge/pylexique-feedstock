@@ -1,5 +1,5 @@
 {% set name = "pylexique" %}
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: e33c078d32a7acda52e19366cac6712f873f151e8ffdc8ab9fb162fd05726457
+  sha256: c5fdd4e4ab46325a427485ad6b8d386f98ece8f1c2d4c5c398f9a44fb8ba89a7
 
 build:
   number: 0

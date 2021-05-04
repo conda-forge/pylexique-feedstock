@@ -78,7 +78,7 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-pylexique_v-1.2.2
+pylexique_v-1.2.3
 
               <td>osx_64_python3.6.____cpython</td>
               <td>

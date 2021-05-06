@@ -40,7 +40,7 @@ test:
   requires:
 
 about:
-  description: |+
+  description: |
     Pylexique is a Python wrapper around Lexique83.
     It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
     Features:

@@ -11,12 +11,14 @@ Summary: Pylexique is a Python wrapper around Lexique83
 
 Pylexique is a Python wrapper around Lexique83.
 It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
+
 Features:
-- Extract all lexical information from a French word.
-- Get all related words to a given word.
-- Easy to use Api.
-- Easily integrate pylexique in your own projects as an imported library.
-- Can be used as a command line tool.
+
+  - Extract all lexical information from a French word.
+  - Get all related words to a given word.
+  - Easy to use Api.
+  - Easily integrate pylexique in your own projects as an imported library.
+  - Can be used as a command line tool.
 
 
 Current build status

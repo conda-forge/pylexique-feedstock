@@ -1,5 +1,5 @@
 {% set name = "pylexique" %}
-{% set version = "1.2.6" %}
+{% set version = "1.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: 84fd5188af199b54f4b95d7a60ca4a9ba543fd8535bbe6107bdfa0c87be44210
+  sha256: db56979bf767f8c96b25204181fe898b00eaa2ac8ae144f9dfc1edcaaca59e99
 
 build:
   number: 0
@@ -43,12 +43,14 @@ about:
   description: |
     Pylexique is a Python wrapper around Lexique83.
     It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
+
     Features:
-    - Extract all lexical information from a French word.
-    - Get all related words to a given word.
-    - Easy to use Api.
-    - Easily integrate pylexique in your own projects as an imported library.
-    - Can be used as a command line tool.
+
+      - Extract all lexical information from a French word.
+      - Get all related words to a given word.
+      - Easy to use Api.
+      - Easily integrate pylexique in your own projects as an imported library.
+      - Can be used as a command line tool.
   home: https://github.com/SekouDiaoNlp/pylexique
   summary: Pylexique is a Python wrapper around Lexique83
   license: MIT

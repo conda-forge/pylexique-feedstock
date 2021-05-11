@@ -1,5 +1,5 @@
 {% set name = "pylexique" %}
-{% set version = "1.2.7" %}
+{% set version = "1.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: db56979bf767f8c96b25204181fe898b00eaa2ac8ae144f9dfc1edcaaca59e99
+  sha256: 209f799a4b7d2279e8f4186ea0991a27c32fdeba7789944595fb2cc2dde1ecac
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - python
     - setuptools
     - dataclasses
+    - pandas
     - colorama
     - tqdm
     - click >=7.1

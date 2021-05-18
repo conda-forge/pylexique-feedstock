@@ -14,7 +14,13 @@ It allows to extract lexical information from more than 140 000 French words in 
 
 Features:
 
-  - Extract all lexical information from a French word.
+  - Extract all lexical information from a French word such as
+      - orthographic and phonemics representations
+      - associated lemmas
+      - syllabation
+      - grammatical category
+      - gender and number
+      - frequencies in a corpus of books and in a body of film subtitles, etc…
   - Get all related words to a given word.
   - Easy to use Api.
   - Easily integrate pylexique in your own projects as an imported library.

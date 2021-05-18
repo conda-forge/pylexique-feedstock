@@ -11,12 +11,20 @@ Summary: Pylexique is a Python wrapper around Lexique83
 
 Pylexique is a Python wrapper around Lexique83.
 It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
+
 Features:
-- Extract all lexical information from a French word.
-- Get all related words to a given word.
-- Easy to use Api.
-- Easily integrate pylexique in your own projects as an imported library.
-- Can be used as a command line tool.
+
+  - Extract all lexical information from a French word such as
+      - orthographic and phonemics representations
+      - associated lemmas
+      - syllabation
+      - grammatical category
+      - gender and number
+      - frequencies in a corpus of books and in a body of film subtitles, etc…
+  - Get all related words to a given word.
+  - Easy to use Api.
+  - Easily integrate pylexique in your own projects as an imported library.
+  - Can be used as a command line tool.
 
 
 Current build status
@@ -79,8 +87,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-pylexique_v-1.2.5
-
+              <td>osx_64_python3.6.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12583&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pylexique-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12583&branchName=master">

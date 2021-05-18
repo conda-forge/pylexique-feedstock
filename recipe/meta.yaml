@@ -1,5 +1,5 @@
 {% set name = "pylexique" %}
-{% set version = "1.3.4" %}
+{% set version = "1.3.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: 95f7740c7c470d2547e063b37d2fa5efacf0184d2101fc2fc1e4d5e1cdf274f3
+  sha256: eaaf532bf55c70b3b7f7a8827d28de058e335cc6752b388b446dc03fdb1865e2
 
 build:
   number: 0
@@ -47,7 +47,13 @@ about:
 
     Features:
 
-      - Extract all lexical information from a French word.
+      - Extract all lexical information from a French word such as
+          - orthographic and phonemics representations
+          - associated lemmas
+          - syllabation
+          - grammatical category
+          - gender and number
+          - frequencies in a corpus of books and in a body of film subtitles, etc…
       - Get all related words to a given word.
       - Easy to use Api.
       - Easily integrate pylexique in your own projects as an imported library.

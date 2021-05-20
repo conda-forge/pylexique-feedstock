@@ -7,9 +7,9 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pylexique-feedstock/blob/master/LICENSE.txt)
 
-Summary: Pylexique is a Python wrapper around Lexique83
+Summary: Pylexique is a Python wrapper around Lexique383
 
-Pylexique is a Python wrapper around Lexique83.
+Pylexique is a Python wrapper around Lexique383.
 It allows to extract lexical information from more than 140 000 French words in an Object Oriented way.
 
 Features:

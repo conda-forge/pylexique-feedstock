@@ -11,7 +11,7 @@ source:
   sha256: eaaf532bf55c70b3b7f7a8827d28de058e335cc6752b388b446dc03fdb1865e2
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pylexique=pylexique.cli:main
   script: {{ PYTHON }} -m pip install . -vv

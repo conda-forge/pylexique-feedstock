@@ -1,5 +1,5 @@
 {% set name = "pylexique" %}
-{% set version = "1.3.5" %}
+{% set version = "1.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: eaaf532bf55c70b3b7f7a8827d28de058e335cc6752b388b446dc03fdb1865e2
+  sha256: 65beedef650ed18a0cc4b5a7b77f2b1f12829d6b9d7715008ab024700a066629
 
 build:
   number: 1
@@ -30,7 +30,7 @@ requirements:
     - pandas
     - colorama
     - tqdm
-    - click >=7.1
+    - click >=8.0.3
     - joblib
 
 test:

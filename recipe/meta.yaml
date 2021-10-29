@@ -16,10 +16,10 @@ build:
   number: 0
   entry_points:
     - pylexique=pylexique.cli:main
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv --use-deprecated=out-of-tree-build
 
 requirements:
-  build:
   host:
     - pip
     - pytest-runner

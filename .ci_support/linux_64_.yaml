@@ -1,7 +1,3 @@
-c_compiler:
-- gcc
-c_compiler_version:
-- '9'
 cdt_name:
 - cos6
 channel_sources:
@@ -15,9 +11,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.8.* *_cpython
-target_platform:
-- linux-64
+- 3.9.* *_cpython
 zip_keys:
 - - cdt_name
   - docker_image

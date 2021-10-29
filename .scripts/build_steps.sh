@@ -25,8 +25,7 @@ conda-build:
  root-dir: ${FEEDSTOCK_ROOT}/build_artifacts
 
 CONDARC
-GET_BOA=boa
-BUILD_CMD=mambabuild
+BUILD_CMD=build
 
 conda install --yes --quiet "conda-forge-ci-setup=3" conda-build pip ${GET_BOA:-} -c conda-forge
 
@@ -37,6 +36,7 @@ source run_conda_forge_build_setup
 
 # make the build number clobber
 make_build_number "${FEEDSTOCK_ROOT}" "${RECIPE_ROOT}" "${CONFIG_FILE}"
+
 
 
 ( endgroup "Configuring conda" ) 2> /dev/null

@@ -17,7 +17,7 @@ build:
   entry_points:
     - pylexique=pylexique.cli:main
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --use-deprecated=out-of-tree-build
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,10 +30,7 @@ requirements:
     - setuptools
     - dataclasses
     - pandas
-    - colorama
-    - tqdm
     - click >=8.0.3
-    - joblib
 
 test:
   imports:

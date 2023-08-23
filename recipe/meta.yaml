@@ -1,6 +1,6 @@
 {% set name = "pylexique" %}
 
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 
 
@@ -10,14 +10,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
-  sha256: 8c5a2f338f395ab43321822450b09882fba0709434ab796755cec5ce15765227
+  sha256: e2173c2b4dd444548c4f2717fee7961814d15bf9ef3f308011284adba09b781b
 
 build:
   number: 0
   entry_points:
     - pylexique=pylexique.cli:main
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --use-deprecated=out-of-tree-build
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,10 +30,7 @@ requirements:
     - setuptools
     - dataclasses
     - pandas
-    - colorama
-    - tqdm
     - click >=8.0.3
-    - joblib
 
 test:
   imports:

@@ -9,11 +9,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pylexique-{{ version }}.tar.gz
   sha256: e2173c2b4dd444548c4f2717fee7961814d15bf9ef3f308011284adba09b781b
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - pylexique=pylexique.cli:main
   noarch: python
@@ -23,10 +23,10 @@ requirements:
   host:
     - pip
     - pytest-runner
-    - python >=3.7
+    - python {{ python_min }}
     - poetry
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - setuptools
     - dataclasses
     - pandas
@@ -40,6 +40,7 @@ test:
   requires:
     - pip
     - poetry
+    - python {{ python_min }}
 
 about:
   description: |
